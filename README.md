@@ -1,2 +1,5 @@
-# 2026-website
-WordCamp Asia 2026 - Website Team
+# WordCamp Asia 2026
+Setup guide for the WordCamp Asia 2026 theme.
+
+
+
