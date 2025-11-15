@@ -1,0 +1,16 @@
+{
+  "name": "wca26-theme",
+  "version": "1.0.0",
+  "description": "WordCamp Asia 2026 Theme CSS Build",
+  "scripts": {
+    "build": "postcss style.css -o style.min.css",
+    "build:watch": "postcss style.css -o style.min.css --watch"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "cssnano": "^6.0.1"
+  }
+}
+

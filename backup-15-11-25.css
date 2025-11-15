@@ -1,0 +1,1040 @@
+/* Chetan Prajapati */
+#announcement #logo {
+	max-width: 400px;
+}
+
+#announcement .wp-block-cover__inner-container {
+	padding: 20px;
+}
+
+.overlap-buton {
+	position: relative;
+	z-index: 30 !important;
+}
+
+@media (max-width: 690px) {
+	#announcement .is-layout-flex {
+		justify-content: center;
+	}
+}
+
+/** Attendees 
+ * ========================
+ */
+#tix-attendees {
+	max-width: none;
+}
+
+#tix-attendees ul {
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+	padding: 0;
+}
+
+#tix-attendees li {
+	width: 100% !important;
+	float: none;
+	box-sizing: border-box;
+	border: 1px solid #B0A1E6;
+	border-radius: 8px;
+	height: auto !important;
+	overflow: hidden;
+	padding: 15px;
+	margin: 0 !important;
+}
+
+#tix-attendees .avatar {
+	border: 2px solid #66002A;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	box-sizing: border-box;
+}
+
+#tix-attendees .tix-field {
+	margin-left: 100px;
+	margin-bottom: .25em !important;
+	overflow-wrap: anywhere;
+	word-break: keep-all;
+}
+
+#tix-attendees .tix-field:last-child {
+	margin-bottom: 0 !important;
+}
+
+#tix-attendees a.tix-field {
+	text-decoration: none;
+	color: #585858;
+}
+
+#tix-attendees a.tix-field:hover {
+	text-decoration: underline;
+}
+
+#tix-attendees .tix-attendee-name {
+	font-size: 1.5rem !important;
+	font-family: var(--wp--preset--font-family--jaini-purva);
+	color: #06116C;
+	font-weight: 400;
+	line-height: 1.1;
+}
+
+#tix-attendees .tix-attendee-twitter,
+#tix-attendees .tix-attendee-url {
+	padding-left: 1.25rem;
+	position: relative;
+}
+
+#tix-attendees .tix-attendee-twitter::before {
+	display: inline-block;
+	content: "𝕏";
+	width: 1em;
+	height: 1em;
+	font-weight: 700;
+	font-size: 1rem;
+	margin-right: .25em;
+	vertical-align: middle;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#tix-attendees .tix-attendee-url::before {
+	font-family: 'dashicons';
+	content: "\f103";
+	margin-right: .5em;
+	vertical-align: middle;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/** Organizers Start
+ * ========================
+ */
+.page-id-12 .wp-block-group.alignwide.has-global-padding.is-layout-constrained.wp-container-core-group-is-layout-b608072d.wp-block-group-is-layout-constrained {
+	display: none;
+}
+
+.page-id-12 
+.columns-1.alignwide.globallead.wp-block-post-template.is-layout-grid.wp-container-core-post-template-is-layout-19505109.wp-block-post-template-is-layout-grid {
+	max-width: 350px;
+}
+
+.page-id-12 .attachment-96x96.size-96x96.wp-post-image {
+	border: 5px solid #57066c;
+	padding: 10px;
+}
+
+.page-id-12 .wcb_organizer.type-wcb_organizer.status-publish.hentry {
+	padding: 1.5rem;
+	border: 1px solid #b0a1e6;
+	border-radius: 10px;
+	background: #F3F4F6;
+	padding: 35px 0 !important;
+}
+
+.page-id-12 .hero-banner {
+	display: none;
+}
+
+.page-id-12 .hero-banner-group {
+	margin-top: -11% !important;
+}
+
+.page-id-12 .wp-block-group.wca26_profile_links.is-content-justification-center.is-nowrap.is-layout-flex.wp-container-core-group-is-layout-23441af8.wp-block-group-is-layout-flex {
+	background: #fff;
+	width: 50%;
+	padding: 5px 0;
+}
+
+.columns-3.alignwide.wp-block-post-template.is-layout-grid.wp-block-post-template-is-layout-grid {
+	min-width: 1200px !important;
+}
+
+.page-id-12 .wp-block-separator.has-css-opacity.is-style-wide, .page-id-12 h3.wp-block-heading, .page-id-12 .top-title {
+	display: none;
+}
+
+.cusotm_organizer_title {
+	margin-top: 20px !important;
+}
+
+.flagimage {
+	border: .5px solid black;
+}
+
+.page-id-12 .entry-content.wp-block-post-content.has-global-padding.is-layout-constrained.wp-block-post-content-is-layout-constrained p {
+	display: none;
+}
+
+.organizer-image img {
+	border: 5px solid #57066C;
+	border-radius: 50%;
+	width: 140px !important;
+	height: 140px !important;
+}
+
+.single-wcb_organizer .wp-block-post-title {
+	display: none;
+}
+
+.single-wcb_organizer .wp-block-group.is-content-justification-left {
+	display: none;
+}
+
+.single-wcb_organizer .more_about_organizer {
+	display: none;
+}
+
+.single-wcb_organizer .team_name_group h2, .team_name_group h3, .team_name_group p {
+	padding: 10px;
+	margin: 0 !important;
+}
+
+.single-wcb_organizer .team_name_group h3 {
+	font-size: 24px !important;
+}
+
+.single-wcb_organizer .wp-block-social-links .wp-social-link svg, .page-id-12  .wp-block-social-links .wp-social-link, .page-id-12 .wp-block-social-links .wp-social-link svg, .page-id-12  .wp-block-social-links .wp-social-link {
+	width: 25px !important;
+	height: 25px !important;
+}
+
+.Global-lead .wp-block-post-template {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-block-heading.has-text-align-center.cusotm_organizer_title {
+	font-family: Poppins;
+	font-weight: 600;
+	font-size: 26px;
+}
+
+.page-id-12 h2.team-title {
+	font-size: clamp(28px, 2rem + 4vw, 70px);
+	font-weight: 600;
+	line-height: 1.15;
+	margin-bottom: 40px !important;
+}
+
+.page-id-12 .team-grid {
+	min-width: 1200px !important;
+}
+
+.single-wcb_organizer .organizer-image img {
+	border: 5px solid #57066C;
+	border-radius: 50%;
+	width: 200px !important;
+	height: 200px !important;
+}
+
+.single-wcb_organizer .wp-block-heading.has-text-align-center.cusotm_organizer_title {
+	font-family: var(--wp--preset--font-family--jaini-purva);
+	font-size: 46px;
+}
+
+/** Organizers End
+ * ========================
+ */
+/* New home page */
+.page-id-3231 .wp-block-group.alignwide.has-global-padding.is-layout-constrained.wp-container-core-group-is-layout-b608072d.wp-block-group-is-layout-constrained, .page-id-3231 .wp-block-group.hero-banner.has-contrast-background-color.has-background.is-vertical.is-content-justification-center.is-layout-flex.wp-container-core-group-is-layout-945a12ae.wp-block-group-is-layout-flex {
+	display: none !important;
+}
+
+.page-id-3231 #speaker-sponsor-grid .wp-block-list li {
+	line-height: 1em !important;
+}
+
+#icon-section {
+	text-align: right;
+}
+
+.icon-list .fa {
+	color: #fff !important;
+}
+
+#hero-banner-section .wp-block-cover.is-position-bottom-left {
+	align-items: none;
+	justify-content: unset;
+}
+
+#hero-banner-section {
+	margin-top: -162px;
+}
+
+#hero-banner-section .wp-block-group.custom-banner-text.has-global-padding.is-layout-constrained.wp-block-group-is-layout-constrained {
+	padding-bottom: 150px !important;
+}
+
+.home-news-section p.has-medium-font-size, .home-news-section .wp-block-post-author-name.has-medium-font-size, .home-news-section .taxonomy-category {
+	display: none !important;
+}
+
+.about-asia h2 {
+	margin: 10px 0 !important;
+	padding: 0 !important;
+}
+
+.page-id-3231 #sponsorship-apply-now .wp-block-image img {
+	height: 600px !important;
+	width: 100% !important;
+	margin-top: 210px !important;
+}
+
+/* new home page end */
+#tix * {
+	line-height: 1.5;
+}
+
+.tix_tickets_table,
+.tix-ticket-form {
+	max-width: 1008px;
+	min-width: 100%;
+	border-collapse: collapse;
+}
+
+.tix_tickets_table td,
+.tix_tickets_table th,
+.tix-ticket-form th,
+.tix-ticket-form td {
+	padding: 1.5rem;
+	font-size: 1rem;
+	text-align: center;
+	color: var(--wp--preset--color--contrast);
+}
+
+.tix-tickets-list thead th,
+.tix-ticket-form thead th {
+	background-color: var(--wp--preset--color--contrast);
+	color: var(--wp--preset--color--white);
+	font-weight: 700;
+}
+
+.tix_tickets_table tbody th,
+.tix_tickets_table tbody td,
+.tix-ticket-form tbody th,
+.tix-ticket-form tbody td {
+	padding: 3rem 1.5rem;
+}
+
+.tix_tickets_table th:first-child,
+.tix_tickets_table td:first-child,
+.tix-ticket-form th:first-child,
+.tix-ticket-form td:first-child {
+	padding-left: 3rem;
+}
+
+.tix_tickets_table th:last-child,
+.tix_tickets_table td:last-child,
+.tix-ticket-form th:last-child,
+.tix-ticket-form td:last-child {
+	padding-right: 3rem;
+}
+
+.tix_tickets_table .tix-column-description,
+.tix-ticket-form td {
+	text-align: left;
+}
+
+.tix_tickets_table + p {
+	padding: 0 1rem;
+}
+
+.tix_tickets_table + p input[type="submit"],
+#tix .tix-submit input[type="submit"],
+#tix .tix-submit .tix-checkout-button {
+	background-color: var(--wp--preset--color--tertiary);
+	color: var(--wp--preset--color--black);
+	padding: 1rem 2rem;
+	border: none;
+	font-weight: 700;
+	border-radius: 2rem;
+}
+
+.tix_tickets_table input[type="text"],
+.tix_tickets_table input[type="textarea"],
+.tix_tickets_table input[type="email"],
+.tix_tickets_table input[type="url"],
+.tix_tickets_table select {
+	padding: .5rem;
+	border: 1px solid var(--wp--preset--color--contrast);
+	border-radius: 4px;
+}
+
+.tix_tickets_table .tix-row-coupon input[type="text"] {
+	width: 50%;
+}
+
+.tix_tickets_table select:focus {
+	outline: none;
+}
+
+/* Ticket Serect list Only */
+.tix-tickets-list tbody tr[class^="tix-ticket-"],
+.tix-ticket-form tbody tr {
+	border-bottom: 1px solid var(--wp--preset--color--contrast);
+}
+
+.tix-tickets-list .tix-ticket-title {
+	font-size: 1.5rem;
+	color: var(--wp--preset--color--contrast);
+	font-weight: 700;
+}
+
+.tix-tickets-list .wca25-ticket-currency {
+	font-weight: bold;
+}
+
+.tix-tickets-list .tix-row-coupon #tix-coupon-link {
+	color: var(--wp--preset--color--contrast);
+	font-weight: 700;
+}
+
+.tix-tickets-list .tix-row-coupon strong {
+	color: var(--wp--preset--color--contrast);
+}
+
+.tix-tickets-list .tix-row-coupon input[name="tix_coupon_submit"] {
+	display: inline-block;
+	background-color: var(--wp--preset--color--contrast);
+	color: var(--wp--preset--color--white);
+	padding: .5rem 1rem;
+	border: none;
+	border-radius: 4px;
+}
+
+.tix-tickets-list .tix-row-coupon td {
+	padding: 1rem;
+}
+
+/* Summary and Information Only */
+.tix-has-dynamic-receipts h2 {
+	background-color: var(--wp--preset--color--contrast);
+	color: var(--wp--preset--color--white);
+	font-weight: 700;
+	font-size: 1.5rem;
+	padding: 1.5rem 3rem;
+}
+
+/* Summary Only */
+.tix_tickets_table.tix-order-summary th,
+.tix_tickets_table.tix-order-summary td {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.tix-order-summary .tix-column-description strong {
+	font-size: 1.25rem;
+}
+
+.tix-order-summary .tix-column-description small {
+	display: block;
+	padding-top: .5rem;
+}
+
+.tix-row-total td:first-child strong {
+	display: inline-block;
+}
+
+.tix-row-total .screen-reader-text {
+	clip: auto;
+	clip-path: none;
+	overflow: visible;
+	position: static !important;
+	font-size: .8rem;
+}
+
+/* Information Only */
+.tix_tickets_table.tix-attendee-form th,
+.tix_tickets_table.tix-attendee-form td {
+	text-align: left;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.tix_tickets_table.tix-attendee-form th {
+	font-size: 1.25rem;
+	color: var(--wp--preset--color--contrast);
+}
+
+tr[class^="tix-row-"] .tix-screen-reader-fieldset:has(input[type="radio"]) {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+tr[class^="tix-row-"] .tix-screen-reader-fieldset:has(input[type="radio"]) br {
+	display: none;
+}
+
+[class^="tix-row-"] .tix-screen-reader-fieldset:has(input[type="radio"]) label {
+	margin: 0 1.5rem .5rem 0;
+}
+
+tr[class^="tix-row-"] .tix-screen-reader-fieldset:has(input[type="checkbox"]) {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+tr[class^="tix-row-"] .tix-screen-reader-fieldset:has(input[type="checkbox"]) br {
+	display: none;
+}
+
+[class^="tix-row-"] .tix-screen-reader-fieldset:has(input[type="checkbox"]) label {
+	min-width: 50%;
+	padding-right: 2rem;
+	padding-bottom: .5rem;
+	box-sizing: border-box;
+}
+
+#tix form {
+	overflow: auto;
+}
+
+.tix-ticket-form {
+	margin-bottom: 3rem;
+}
+
+/* Smartphone and Tablet size */
+@media screen and (max-width: 768px) {
+	.page-id-12	.Global-lead .wp-block-post-template {
+		width: 100%;
+	}
+	
+	.tix_tickets_table tbody th,
+																																			  .tix_tickets_table tbody td {
+		padding: 1.5rem;
+	}
+	
+	/* Ticket Serect list Only */
+	.tix_tickets_table thead tr,
+																																			  .tix-ticket-form thead tr {
+		display: block;
+		background-color: var(--wp--preset--color--contrast);
+		height: 1rem;
+		content: "";
+	}
+	
+	.tix_tickets_table thead th,
+																																			  .tix-ticket-form thead th {
+		display: none;
+	}
+	
+	.tix_tickets_table tbody tr {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-column-gap: 0;
+		grid-row-gap: 0;
+		grid-auto-rows: auto;
+	}
+	
+	.tix_tickets_table th:first-child,
+																																			  .tix_tickets_table td:first-child {
+		grid-column-start: 1;
+		grid-column-end: 4;
+		padding-left: 1.5rem;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	
+	.tix_tickets_table th:last-child,
+																																			  .tix_tickets_table td:last-child {
+		padding-right: 1.5rem;
+	}
+	
+	.tix_tickets_table tbody th {
+		padding-top: 3rem;
+	}
+	
+	.tix_tickets_table tbody td {
+		padding-top: 0;
+		padding-bottom: 3rem;
+	}
+	
+	.tix-tickets-list .tix-row-coupon td {
+		grid-column-start: 1;
+		grid-column-end: 4;
+	}
+	
+	.tix-tickets-list tbody td::before {
+		display: block;
+		font-weight: 700;
+		color: var(--wp--preset--color--contrast);
+		margin-bottom: .5rem;
+	}
+	
+	.tix-column-price::before {
+		content: "Price";
+	}
+	
+	.tix-column-remaining::before {
+		content: "Remaining";
+	}
+	
+	.tix-column-quantity::before {
+		content: "Quantity";
+	}
+	
+	/* Summary Only */
+	.tix-order-summary thead tr {
+		display: none;
+	}
+	
+	.tix-order-summary tr {
+		border-bottom: 1px dashed var(--wp--preset--color--contrast);
+	}
+	
+	.tix_tickets_table.tix-order-summary td {
+		padding-bottom: 2rem;
+	}
+	
+	.tix-order-summary tr.tix-row-total {
+		border: none;
+	}
+	
+	.tix-order-summary td.tix-column-description {
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+	
+	.tix-order-summary tbody td::before {
+		display: block;
+		font-weight: 700;
+		color: var(--wp--preset--color--contrast);
+		margin-bottom: .5rem;
+	}
+	
+	.tix-column-per-ticket::before {
+		content: "Per Ticket";
+	}
+	
+	.tix-row-total {
+		padding-top: 1rem;
+	}
+	
+	.tix-row-total td {
+		padding: 1.5rem;
+	}
+	
+	.tix-row-total td:first-child {
+		padding: 0 1.5rem;
+	}
+	
+	.tix-row-total td:last-child {
+		text-align: right;
+		grid-column-start: 1;
+		grid-column-end: 4;
+	}
+	
+	/* Information Only */
+	.tix_tickets_table.tix-attendee-form tr {
+		display: block;
+	}
+	
+	.tix_tickets_table.tix-attendee-form th,
+																																			  .tix_tickets_table.tix-attendee-form td.tix-left,
+																																			  .tix_tickets_table.tix-attendee-form td.tix-right {
+		display: block;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	
+	.tix_tickets_table.tix-attendee-form td.tix-left {
+		padding-bottom: 0;
+		font-weight: 700;
+	}
+	
+	.tix_tickets_table.tix-attendee-form .tix-row-health-advisory td.tix-left {
+		font-weight: normal;
+	}
+	
+	.tix-attendee-form input[type="text"],
+																																			  .tix-attendee-form input[type="textarea"],
+																																			  .tix-attendee-form input[type="email"],
+																																			  .tix-attendee-form input[type="url"] {
+		width: 100% !important;
+		box-sizing: border-box;
+	}
+	
+	/* Complpete page only */
+	.tix-ticket-form tr {
+		display: grid;
+	}
+	
+	.tix-ticket-form th, 
+																																			  .tix-ticket-form td {
+		display: block;
+		padding: .5rem 0 0;
+		width: 100%;
+		box-sizing: border-box;
+		text-align: left;
+	}
+	
+	.tix-ticket-form tbody td {
+		padding: .5rem 1.5rem !important;
+	}
+	
+	.tix-ticket-form tbody td:first-child {
+		padding-top: 1.5rem !important;
+	}
+	
+	.tix-ticket-form tbody td:last-child {
+		padding-bottom: 1.5rem !important;
+	}
+	
+	.tix-ticket-form tbody td::before {
+		display: inline-block;
+		font-size: .9rem;
+		font-weight: 700;
+		margin: 0 1rem 0 0;
+	}
+	
+	.tix-ticket-form tbody td:first-child::before {
+		content: "Tickets Summary";
+		display: block;
+		border-bottom: 1px dashed var(--wp--preset--color--contrast);
+		margin-bottom: 1rem;
+	}
+	
+	.tix-ticket-form tbody td:nth-child(2)::before {
+		content: "Purchase Date";
+	}
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+	.page-id-12 .team-grid {
+		min-width: 300px !important;
+	}
+	
+	.page-id-12 .hero-banner-group {
+		margin-top: -21% !important;
+	}
+	
+	.page-id-12 .wp-block-group.wca26_profile_links.is-content-justification-center.is-nowrap.is-layout-flex.wp-container-core-group-is-layout-23441af8.wp-block-group-is-layout-flex {
+		background: #fff;
+		width: 55%;
+		padding: 5px 0;
+	}
+	
+	.page-id-12	.Global-lead .wp-block-post-template {
+		width: 100%;
+	}
+	
+	.more_about_organizer {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 810px) and (max-width: 1050px) {
+	.page-id-12 .team-grid {
+		min-width: 700px !important;
+	}
+	
+	.page-id-12	.wp-block-heading.has-text-align-center.cusotm_organizer_title {
+		font-size: 20px;
+	}
+	
+	.page-id-12 .hero-banner-group {
+		margin-top: -16% !important;
+	}
+	
+	.page-id-12 .wp-block-group.wca26_profile_links.is-content-justification-center.is-nowrap.is-layout-flex.wp-container-core-group-is-layout-23441af8.wp-block-group-is-layout-flex {
+		background: #fff;
+		width: 75%;
+		padding: 5px 0;
+	}
+	
+	.page-id-12	.Global-lead .wp-block-post-template {
+		width: 100%;
+	}
+	
+	.page-id-12 .wp-block-social-links .wp-social-link svg, .page-id-12 .wp-block-social-links .wp-social-link {
+		width: 20px !important;
+		height: 20px !important;
+	}
+	
+	.more_about_organizer {
+		font-size: 12px;
+	}
+}
+
+/* Smartphone Only size */
+@media screen and (max-width: 480px) {
+	.tix_tickets_table th, 
+																																			  .tix_tickets_table td {
+		grid-column-start: 1;
+		grid-column-end: 4;
+		padding: .5rem 0 0;
+		width: 100%;
+		box-sizing: border-box;
+		text-align: left;
+	}
+	
+	.tix_tickets_table tbody td {
+		padding-bottom: 1rem;
+	}
+	
+	.tix_tickets_table tbody td:last-child {
+		padding-bottom: 1.5rem;
+	}
+	
+	.tix-tickets-list tbody td::before,
+																																			  .tix-order-summary tbody td::before {
+		display: inline-block;
+		margin: 0 1rem 0 0;
+	}
+	
+	.tix_tickets_table.tix-order-summary td {
+		padding: 0 1.5rem 1rem;
+	}
+}
+
+/*
+ * ========================
+ * Tickets End
+ */
+/* Ajay Maurya - 21/09 */
+/* Updates page */
+.updates-loop {
+	height: 100%;
+}
+
+.updates-loop__post-meta {
+	margin-top: auto !important;
+}
+
+/* Amitkumar Dudhat - start */
+/* call for sponser page */
+#why-sponser-wc26 figure img {
+	width: 100%;
+}
+
+hr#wc26-sepqrator {
+	height: 2px;
+	width: 30%;
+}
+
+#sponser-package-chart table thead {
+	background-color: #06116C;
+	color: #ffffff;
+	font-family: var(--wp--preset--font-family--jaini-purva) !important;
+	font-size: 1.5rem;
+}
+
+#sponser-package-chart table thead th {
+	font-weight: normal !important;
+}
+
+#sponser-package-chart table tbody tr:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+#sponser-package-chart table tbody tr:nth-child(even) {
+	background-color: #EEEEF0;
+}
+
+.wc-26-bullets ul li:before {
+	content: '✓';
+	margin-right: 10px;
+}
+
+.wc-26-bullets ul {
+	list-style: none;
+}
+
+/* Amitkumar Dudhat - end */
+.hero-banner-group {
+	position: relative;
+	overflow: hidden;
+}
+
+.hero-banner__texture-left {
+	position: absolute !important;
+	left: 0;
+	bottom: -180px;
+}
+
+.hero-banner__texture-right {
+	position: absolute !important;
+	right: 0;
+	top: -120px;
+}
+
+.sponsership-cta__columns {
+	position: relative;
+	overflow: hidden;
+}
+
+.sponsership-cta__texture {
+	position: absolute !important;
+	bottom: -120px;
+	right: -70px;
+	transform: rotate(-90deg);
+	z-index: 1;
+}
+
+.sponser-package-chart__table table {
+	display: table;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+.sponsorship-apply-now {
+	position: relative;
+}
+
+.sponsorship-apply-now__texture {
+	position: absolute !important;
+	right: 0;
+	top: -50%;
+}
+
+/*. Juhi Patel - 3-10-25*/
+.blog-post {
+	background-color: #f3f4f6;
+}
+
+.tix_tickets_table thead th, #tix-registration-information, #tix_checkout_form h2:first-of-type {
+	background-color: #06116C !important;
+	color: #fff !important;
+}
+
+#tix-qty-510, #tix_attendee_questions-1-511 {
+	background: #fff !important;
+}
+
+#tix input[type="submit"] {
+	background: #66002a !important;
+	color: #ffffff !important;
+	font-size: 16px;
+	font-family: var(--wp--preset--font-family--jaini-purva) !important;
+}
+
+.tix-ticket-title {
+	font-family: var(--wp--preset--font-family--jaini-purva) !important;
+}
+
+/* Juhi Patel End */
+@media screen and (max-width: 600px) {
+	.sponsorship-apply-now__texture {
+		display: none;
+	}
+}
+
+.add-shadow {
+	transition: box-shadow .5s;
+}
+
+.add-shadow:hover,
+.add-shadow:focus {
+	box-shadow: var(--wp--preset--shadow--deep);
+}
+
+/* Ajay Maurya 4-10 */
+h1, h2, h3, h4, h5, h6 {
+	color: var(--wp--preset--color--contrast);
+}
+
+.hero-banner {
+	position: relative;
+}
+
+.hero-banner:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 90px;
+	background-image: url('https://asia.wordcamp.org/2026/files/2025/10/patterns-1.png');
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-repeat: repeat-x;
+	background-size: auto;
+	background-position: center;
+}
+
+.hero-banner h1 {
+	max-width: var(--wp--style--global--content-size);
+}
+
+.hero-banner .post-meta * {
+	color: var(--wp--preset--color--base) !important;
+}
+
+@media screen and (max-width: 768px) {
+	.hero-banner {
+		padding-top: 50px;
+		padding-bottom: 140px;
+	}
+	
+	.hero-banner h1 {
+		flex-basis: 100%;
+	}
+}
+
+.entry-content .wp-block-heading {
+	color: var(--wp--preset--color--contrast);
+}
+
+.entry-content h2.wp-block-heading {
+	margin-top: 60px;
+}
+
+.entry-content .wp-block-heading:not(h2) {
+	margin-top: 30px;
+}
+
+.entry-content p + .wp-block-buttons {
+	margin-top: 30px;
+}
+
+.wp-block-jetpack-related-posts .jp-related-posts-i2__post-img {
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+.wp-block-jetpack-related-posts .jp-related-posts-i2__post-link {
+	color: var(--wp--preset--color--contrast);
+	font-family: var(--wp--preset--font-family--jaini-purva);
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.2;
+	font-size: 32px;
+	text-decoration: none;
+}
+
+.wp-block-jetpack-related-posts .jp-related-posts-i2__post-link:hover {
+	text-decoration: underline;
+}
+
+.wp-block-jetpack-related-posts .jp-related-posts-i2__list {
+	column-gap: 2rem;
+}
+
+.jp-related-posts-i2__post:nth-last-child(n+3):first-child, .jp-related-posts-i2__post:nth-last-child(n+3):first-child ~ * {
+	flex-basis: calc(33.33333% - 2rem*2/3) !important;
+}
+
+.wp-block-list li {
+	margin-top: 10px;
+}
+
+.page-slug-event-pass .wp-block-post-featured-image {
+	display: none;
+}
+
+.updates-loop .updates-loop__post-meta {
+}
+
+@media screen and (max-width: 768px) {
+	.get-your-pass {
+		background-image: unset !important;
+	}
+}
+
+.hidden {
+	display: none !important;
+}
