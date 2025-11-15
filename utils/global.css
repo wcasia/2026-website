@@ -1,0 +1,25 @@
+/*
+ * ============================================
+ * GENERAL / UTILITY
+ * ============================================
+ */
+ h1, h2, h3, h4, h5, h6 {
+	color: var(--wp--preset--color--contrast);
+}
+
+.wp-block-list li {
+	margin-top: 10px;
+}
+
+.add-shadow {
+	transition: box-shadow .5s;
+}
+
+.add-shadow:hover,
+.add-shadow:focus {
+	box-shadow: var(--wp--preset--shadow--deep);
+}
+
+.hidden {
+	display: none !important;
+}

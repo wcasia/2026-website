@@ -1,0 +1,71 @@
+/*
+ * ============================================
+ * BLOG / POSTS
+ * ============================================
+ */
+ .updates-loop {
+	height: 100%;
+}
+
+.updates-loop__post-meta {
+	margin-top: auto !important;
+}
+
+.blog-post {
+	background-color: #f3f4f6;
+}
+
+.entry-content .wp-block-heading {
+	color: var(--wp--preset--color--contrast);
+}
+
+.entry-content h2.wp-block-heading {
+	margin-top: 60px;
+}
+
+.entry-content .wp-block-heading:not(h2) {
+	margin-top: 30px;
+}
+
+.entry-content p + .wp-block-buttons {
+	margin-top: 30px;
+}
+
+.wp-block-jetpack-related-posts .jp-related-posts-i2__post-img {
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+.wp-block-jetpack-related-posts .jp-related-posts-i2__post-link {
+	color: var(--wp--preset--color--contrast);
+	font-family: var(--wp--preset--font-family--jaini-purva);
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.2;
+	font-size: 32px;
+	text-decoration: none;
+}
+
+.wp-block-jetpack-related-posts .jp-related-posts-i2__post-link:hover {
+	text-decoration: underline;
+}
+
+.wp-block-jetpack-related-posts .jp-related-posts-i2__list {
+	column-gap: 2rem;
+}
+
+.jp-related-posts-i2__post:nth-last-child(n+3):first-child, .jp-related-posts-i2__post:nth-last-child(n+3):first-child ~ * {
+	flex-basis: calc(33.33333% - 2rem*2/3) !important;
+}
+
+.page-slug-event-pass .wp-block-post-featured-image {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.get-your-pass {
+		background-image: unset !important;
+	}
+}
+
+

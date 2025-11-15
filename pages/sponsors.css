@@ -1,0 +1,76 @@
+/*
+ * ============================================
+ * SPONSORS / SPONSORSHIP
+ * ============================================
+ */
+ #why-sponser-wc26 figure img {
+	width: 100%;
+}
+
+hr#wc26-sepqrator {
+	height: 2px;
+	width: 30%;
+}
+
+#sponser-package-chart table thead {
+	background-color: #06116C;
+	color: #ffffff;
+	font-family: var(--wp--preset--font-family--jaini-purva) !important;
+	font-size: 1.5rem;
+}
+
+#sponser-package-chart table thead th {
+	font-weight: normal !important;
+}
+
+#sponser-package-chart table tbody tr:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+#sponser-package-chart table tbody tr:nth-child(even) {
+	background-color: #EEEEF0;
+}
+
+.wc-26-bullets ul li:before {
+	content: '✓';
+	margin-right: 10px;
+}
+
+.wc-26-bullets ul {
+	list-style: none;
+}
+
+.sponsership-cta__columns {
+	position: relative;
+	overflow: hidden;
+}
+
+.sponsership-cta__texture {
+	position: absolute !important;
+	bottom: -120px;
+	right: -70px;
+	transform: rotate(-90deg);
+	z-index: 1;
+}
+
+.sponser-package-chart__table table {
+	display: table;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+.sponsorship-apply-now {
+	position: relative;
+}
+
+.sponsorship-apply-now__texture {
+	position: absolute !important;
+	right: 0;
+	top: -50%;
+}
+
+@media screen and (max-width: 600px) {
+	.sponsorship-apply-now__texture {
+		display: none;
+	}
+}
