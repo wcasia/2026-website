@@ -3,22 +3,24 @@
  * HERO BANNER
  * ============================================
  */
- .hero-banner-group {
+ .hero-banner-group,
+ .hero-banner-group-maroon {
 	position: relative;
 	overflow: hidden;
 }
 
-.hero-banner__texture-left {
+.hero-banner-group .hero-banner__texture-left {
 	position: absolute !important;
 	left: 0;
 	bottom: -180px;
 }
 
-.hero-banner__texture-right {
+.hero-banner-group .hero-banner__texture-right {
 	position: absolute !important;
 	right: 0;
 	top: -120px;
 }
+
 
 .hero-banner {
 	position: relative;
@@ -55,4 +57,24 @@
 	.hero-banner h1 {
 		flex-basis: 100%;
 	}
+
+	.hero-banner__texture-left {
+		opacity: 0.5;
+	}
+
+	.hero-banner__texture-right {
+		opacity: 0.5;
+	}
+}
+
+.hero-banner-group-maroon .hero-banner__texture-left {
+	top: -80px;
+	left: 0;
+	position: absolute !important;
+}
+
+.hero-banner-group-maroon .hero-banner__texture-right {
+	position: absolute !important;
+  	right: 0;
+  	top: -100px;
 }
