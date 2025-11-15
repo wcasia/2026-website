@@ -4,71 +4,79 @@
  * ============================================
  */
  #tix-attendees {
-	max-width: none;
+	max-width: inherit;
 }
 
-#tix-attendees ul {
+.tix-attendee-list {
 	display: grid;
 	gap: 2rem;
-	grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 	padding: 0;
 }
 
-#tix-attendees li {
+.tix-columns-3 {
+	grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+}
+
+.tix-columns-4 {
+	grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+.tix-attendee-list li {
 	width: 100% !important;
 	float: none;
 	box-sizing: border-box;
-	border: 1px solid #B0A1E6;
+	border: 1px solid var(--wp--preset--color--contrast-3);
 	border-radius: 8px;
 	height: auto !important;
 	overflow: hidden;
-	padding: 15px;
+	padding: 15px 25px;
 	margin: 0 !important;
+	background-color: var(--wp--preset--color--custom-background-gray);
 }
 
-#tix-attendees .avatar {
-	border: 2px solid #66002A;
+.tix-attendee-list .avatar {
+	border: 2px solid var(--wp--preset--color--custom-maroon);
 	border-radius: 50%;
 	width: 80px;
 	height: 80px;
 	box-sizing: border-box;
 }
 
-#tix-attendees .tix-field {
+.tix-attendee-list .tix-field {
 	margin-left: 100px;
 	margin-bottom: .25em !important;
 	overflow-wrap: anywhere;
 	word-break: keep-all;
 }
 
-#tix-attendees .tix-field:last-child {
+.tix-attendee-list .tix-field:last-child {
 	margin-bottom: 0 !important;
 }
 
-#tix-attendees a.tix-field {
+.tix-attendee-list a.tix-field {
 	text-decoration: none;
-	color: #585858;
+	color: var(--wp--preset--color--accent-2);
 }
 
-#tix-attendees a.tix-field:hover {
+.tix-attendee-list a.tix-field:hover {
 	text-decoration: underline;
 }
 
-#tix-attendees .tix-attendee-name {
+.tix-attendee-lists .tix-attendee-name {
 	font-size: 1.5rem !important;
-	font-family: var(--wp--preset--font-family--jaini-purva);
-	color: #06116C;
+	font-family: var(--heading-font);
+	color: var(--wp--preset--color--contrast-2);
 	font-weight: 400;
 	line-height: 1.1;
 }
 
-#tix-attendees .tix-attendee-twitter,
-#tix-attendees .tix-attendee-url {
+.tix-attendee-lists .tix-attendee-twitter,
+.tix-attendee-lists .tix-attendee-url {
 	padding-left: 1.25rem;
 	position: relative;
 }
 
-#tix-attendees .tix-attendee-twitter::before {
+.tix-attendee-lists .tix-attendee-twitter::before {
 	display: inline-block;
 	content: "𝕏";
 	width: 1em;
@@ -82,7 +90,7 @@
 	top: 0;
 }
 
-#tix-attendees .tix-attendee-url::before {
+.tix-attendee-lists .tix-attendee-url::before {
 	font-family: 'dashicons';
 	content: "\f103";
 	margin-right: .5em;

@@ -48,7 +48,7 @@
 
 @media screen and (max-width: 768px) {
 	.hero-banner {
-		padding-top: 50px;
+		padding-top: var(--wp--preset--spacing--50);
 		padding-bottom: 140px;
 	}
 	
