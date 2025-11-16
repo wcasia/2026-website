@@ -15,13 +15,15 @@
 }
 
 .tix_tickets_table td,
-.tix_tickets_table th,
-.tix-ticket-form th,
 .tix-ticket-form td {
 	padding: 1.5rem;
 	font-size: 1rem;
 	text-align: center;
 	color: var(--wp--preset--color--accent-2);
+}
+
+.tix-ticket-form th {
+	color: var(--wp--preset--color--base);
 }
 
 .tix-tickets-list thead th,
@@ -218,8 +220,8 @@ tr[class^="tix-row-"] .tix-screen-reader-fieldset:has(input[type="checkbox"]) br
 
  #tix-registration-information,
  #tix_checkout_form h2:first-of-type {
-	background-color: #06116C !important;
-	color: #fff !important;
+	background-color: var(--wp--preset--color--accent);
+	color: var(--wp--preset--color--base);
 }
 
 .tix_tickets_table thead th {
