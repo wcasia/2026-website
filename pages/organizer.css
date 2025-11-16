@@ -33,6 +33,10 @@
 	height: 140px !important;
 }
 
+.page-slug-organizers .more_about_organizer + p {
+	display: none;
+}
+
 .cusotm_organizer_title {
 	font-family: Poppins;
 	font-weight: 600;
@@ -68,7 +72,7 @@
 	height: 25px !important;
 }
 
-.single-wcb_organizer .more_about_organizer p {
+.single-wcb_organizer .more_about_organizer + p {
 	text-align: center;
 }
 
