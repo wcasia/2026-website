@@ -226,6 +226,7 @@ tr[class^="tix-row-"] .tix-screen-reader-fieldset:has(input[type="checkbox"]) br
 
 .tix_tickets_table thead th {
 	background-color: var(--wp--preset--color--accent);
+	color: var(--wp--preset--color--base);
 }
 
 #tix-qty-510, #tix_attendee_questions-1-511 {
