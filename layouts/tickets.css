@@ -216,10 +216,14 @@ tr[class^="tix-row-"] .tix-screen-reader-fieldset:has(input[type="checkbox"]) br
 	margin-bottom: 3rem;
 }
 
-/* Juhi Patel - 3-10-25 */
-.tix_tickets_table thead th, #tix-registration-information, #tix_checkout_form h2:first-of-type {
+ #tix-registration-information,
+ #tix_checkout_form h2:first-of-type {
 	background-color: #06116C !important;
 	color: #fff !important;
+}
+
+.tix_tickets_table thead th {
+	background-color: var(--wp--preset--color--accent);
 }
 
 #tix-qty-510, #tix_attendee_questions-1-511 {
