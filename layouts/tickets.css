@@ -31,6 +31,7 @@
 	background-color: var(--wp--preset--color--accent);
 	color: var(--wp--preset--color--white);
 	font-weight: 700;
+	padding: 1.5rem 3rem;
 }
 
 .tix_tickets_table tbody th,
@@ -472,4 +473,9 @@ tr[class^="tix-row-"] .tix-screen-reader-fieldset:has(input[type="checkbox"]) br
 
 .tix-tickets-list .tix-column-description {
 	font-weight: 700;
+}
+
+#tix-coupon-container input[type="submit"] {
+	font-size: 1.2rem;
+	margin-left: 20px;
 }
