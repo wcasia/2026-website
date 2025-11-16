@@ -93,14 +93,13 @@
 	outline: none;
 }
 
-/* Ticket Select List Only */
 .tix-tickets-list tbody tr[class^="tix-ticket-"],
 .tix-ticket-form tbody tr {
 	border-bottom: 1px solid var(--wp--preset--color--contrast);
 }
 
 .tix-tickets-list .tix-ticket-title {
-	font-size: 1.5rem;
+	font-size: 2rem;
 	color: var(--wp--preset--color--accent);
 	font-weight: 700;
 }
@@ -131,7 +130,6 @@
 	padding: 1rem;
 }
 
-/* Summary and Information Only */
 .tix-has-dynamic-receipts h2 {
 	background-color: var(--wp--preset--color--contrast);
 	color: var(--wp--preset--color--white);
@@ -140,7 +138,6 @@
 	padding: 1.5rem 3rem;
 }
 
-/* Summary Only */
 .tix_tickets_table.tix-order-summary th,
 .tix_tickets_table.tix-order-summary td {
 	padding-top: 1rem;
@@ -168,7 +165,6 @@
 	font-size: .8rem;
 }
 
-/* Information Only */
 .tix_tickets_table.tix-attendee-form th,
 .tix_tickets_table.tix-attendee-form td {
 	text-align: left;
@@ -247,14 +243,12 @@ tr[class^="tix-row-"] .tix-screen-reader-fieldset:has(input[type="checkbox"]) br
 	font-family: var(--wp--preset--font-family--jaini-purva) !important;
 }
 
-/* Tickets - Media Queries */
 @media screen and (max-width: 768px) {
 	.tix_tickets_table tbody th,
 	.tix_tickets_table tbody td {
 		padding: 1.5rem;
 	}
 	
-	/* Ticket Select List Only */
 	.tix_tickets_table thead tr,
 	.tix-ticket-form thead tr {
 		display: block;
@@ -323,7 +317,6 @@ tr[class^="tix-row-"] .tix-screen-reader-fieldset:has(input[type="checkbox"]) br
 		content: "Quantity";
 	}
 	
-	/* Summary Only */
 	.tix-order-summary thead tr {
 		display: none;
 	}
@@ -374,7 +367,6 @@ tr[class^="tix-row-"] .tix-screen-reader-fieldset:has(input[type="checkbox"]) br
 		grid-column-end: 4;
 	}
 	
-	/* Information Only */
 	.tix_tickets_table.tix-attendee-form tr {
 		display: block;
 	}
@@ -404,7 +396,6 @@ tr[class^="tix-row-"] .tix-screen-reader-fieldset:has(input[type="checkbox"]) br
 		box-sizing: border-box;
 	}
 	
-	/* Complete page only */
 	.tix-ticket-form tr {
 		display: grid;
 	}
