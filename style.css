@@ -1,5 +1,6 @@
 @import "utils/global.css";
 
+@import "layouts/navigation.css";
 @import "layouts/announcement.css";
 @import "layouts/hero-banner.css";
 @import "layouts/tickets.css";
@@ -8,4 +9,5 @@
 @import "pages/posts.css";
 @import "pages/sponsors.css";
 @import "pages/organizer.css";
+@import "pages/updates.css";
 @import "pages/new-home-page.css";

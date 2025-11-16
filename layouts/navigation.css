@@ -1,0 +1,15 @@
+.header-meta  img {
+	vertical-align: baseline;
+}
+
+.header-meta  + .header-meta {
+	margin-top: 5px;
+}
+
+.wp-block-navigation__container .wp-block-navigation-item__content {
+	text-underline-offset: 8px;
+}
+
+.wp-block-navigation__submenu-container {
+	min-width: 240px;
+}
