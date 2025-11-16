@@ -34,7 +34,8 @@
 }
 
 .page-slug-organizers .more_about_organizer ~ p,
-.page-slug-organizers .Cusotm_Organizer_Team {
+.page-slug-organizers .Cusotm_Organizer_Team,
+.page-slug-organizers .nickname {
 	display: none;
 }
 
@@ -81,10 +82,6 @@
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.page-slug-organizers .team-grid {
-	min-width: 1200px !important;
 }
 
 .single-wcb_organizer .organizer-image img {
