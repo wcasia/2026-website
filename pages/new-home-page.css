@@ -1,0 +1,67 @@
+/*
+ * ============================================
+ * New HOME PAGE
+ * ============================================
+ */
+/* Author: Chetan Prajapati - Start */
+* {
+	outline: none !important;
+}
+
+/* PRO PASS BOUGHT - Vachan
+#pro-pass {
+	display: none;
+}
+251130-1745_IST */
+#header #logo img {
+	height: auto !important;
+}
+
+#header .header-event-details a {
+	pointer-events: none !important;
+}
+
+#header .header-event-details .wp-block-navigation-item__label {
+	display: none;
+}
+
+#header .header-event-details .wp-block-navigation-item__description {
+	display: block !important;
+}
+
+#header .header-event-details p {
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0;
+}
+
+#header .header-event-details p:first-of-type {
+	margin-bottom: 3px;
+}
+
+#header .header-event-details p .dashicons {
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+#footer .wp-block-social-links .wp-social-link svg {
+	height: 25px;
+	width: 25px;
+}
+
+.page-id-6010 #wp--skip-link--target .wp-block-group.has-global-padding.is-layout-constrained.wp-block-group-is-layout-constrained {
+	display: none;
+}
+
+.page-id-6010 .entry-content.wp-block-post-content.has-global-padding.is-layout-constrained.wp-block-post-content-is-layout-constrained {
+	margin-top: 50px !important;
+}
+
+@media (min-width: 1201px) {
+	#header .main-navigation,
+    #header .header-event-details {
+        flex: 1;
+	}
+}
+
+/* Author: Chetan Prajapati - End */

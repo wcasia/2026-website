@@ -1,0 +1,44 @@
+.date-location-row {
+	flex-wrap: wrap !important;
+}
+
+@media (min-width: 768px) {
+	.home-banner {
+		position: relative;
+		padding-right: 150px !important;
+	}
+	
+	.home-banner::after {
+		background-image: url('https://asia.wordcamp.org/2026/files/2025/11/patterns-white-1.png');
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 10;
+		height: 100%;
+		width: 148px;
+		background-repeat: repeat;
+		background-position: center;
+	}
+}
+
+@media (max-width: 600px) {
+	.sponsorship-apply-now.home-page {
+		margin-top: 20px !important;
+		margin-bottom: 20px !important;
+	}
+}
+
+.wp-singular.page-template .sharedaddy {
+	display: none !important;
+}
+
+@media (max-width: 600px) {
+	.sponsorship-apply-now {
+		min-height: unset !important;
+	}
+}
+
+.tax-wcb_organizer_team .type-wcb_organizer p {
+	display: none;
+}

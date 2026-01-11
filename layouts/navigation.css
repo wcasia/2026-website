@@ -13,3 +13,114 @@
 .wp-block-navigation__submenu-container {
 	min-width: 240px;
 }
+
+/*
+	 * ============================================
+	 * Update Navigation Breakpoint
+	 * https://wpdocs.io/code-snippets/how-to-change-the-breakpoint-on-a-gutenberg-navigation-block/
+	 * ============================================
+	 */
+/* Force Gutenberg Nav Block to collapse at 1200px */
+@media (max-width: 1200px) {
+	#header {
+		padding: 20px !important;
+	}
+	
+	#header #logo img {
+		width: 140px !important;
+	}
+	
+	#header .wp-block-navigation__responsive-close {
+		display: none;
+	}
+	
+	#header	.is-menu-open .wp-block-navigation__responsive-close,
+	#header	.wp-block-navigation__responsive-container-open {
+		display: block;
+	}
+	
+	#header .wp-block-navigation__responsive-container.has-modal-open {
+		box-shadow: rgba(0, 0, 0, 0.2) -6px 0 12px 0;
+		margin-left: auto;
+		padding: 30px;
+		width: 80%;
+	}
+	
+	#header .wp-block-navigation__responsive-container-close {
+		gap: 20px !important;
+		left: 0;
+		right: auto;
+	}
+	
+	#header button svg {
+		height: 40px;
+		width: 40px;
+	}
+	
+	#header .wp-block-navigation__responsive-container-content {
+		gap: 20px !important;
+	}
+	
+	#header .main-navigation {
+		gap: 0;
+	}
+	
+	#header .wp-block-navigation__responsive-dialog {
+		margin: 0;
+	}
+	
+	#header .wp-block-navigation-item {
+		padding: 4px 0;
+	}
+	
+	#header .wp-block-navigation__submenu-container {
+		padding: 0;
+	}
+	
+	#header .wp-block-navigation__submenu-container li a {
+		font-weight: 400;
+		padding: 0 0 0 15px;
+	}
+	
+	#header .header-event-details {
+		margin-top: 15px;
+		order: 2;
+	}
+	
+	#header .wp-block-button__link {
+		font-size: 24px !important;
+	}
+}
+
+#subscribe #subscribe-field {
+	background-color: #fff !important;
+	color: #585858 !important;
+	opacity: 100% !important;
+}
+
+.subscribe-text h2 {
+	margin-bottom: 0 !important;
+	font-size: 52px !important;
+}
+
+@media only screen and (max-width: 600px) {
+	#subscribe {
+		padding: 50px 15px !important;
+	}
+	
+	.subscribe-text h2 {
+		margin-bottom: 20px !important;
+		font-size: 32px !important;
+	}
+}
+
+/* Keep desktop version visible above 1200px */
+@media (min-width: 1201px) {
+	.wp-block-navigation__responsive-container-open {
+		display: none !important;
+	}
+	
+	.wp-block-navigation .wp-block-navigation__container {
+		display: flex !important;
+	}
+}
